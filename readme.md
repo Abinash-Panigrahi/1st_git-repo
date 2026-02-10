@@ -58,7 +58,7 @@ When you need to **rewrite history** (e.g., you accidentally committed a passwor
 git filter-branch --force --index-filter \
   "git rm --cached --ignore-unmatch README.md" \
   --prune-empty --tag-name-filter cat -- --all
-
+```
 ---
 
 ## 📥 Essential Download Sources
